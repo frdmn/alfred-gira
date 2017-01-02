@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "022e94b6713a35b9b85ef496e80adeae",
+    "content-hash": "fb7a7f8f1915db601575182df8e98ac8",
+    "packages": [
+        {
+            "name": "frdmn/php-alfred",
+            "version": "0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/frdmn/php-alfred.git",
+                "reference": "5ac0ed2ea8983f8beb01647b2d178ad205907351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/frdmn/php-alfred/zipball/5ac0ed2ea8983f8beb01647b2d178ad205907351",
+                "reference": "5ac0ed2ea8983f8beb01647b2d178ad205907351",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "frdmn\\PhpAlfred": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Ferguson",
+                    "email": "jdfwarrior@gmail.com"
+                },
+                {
+                    "name": "Jonas Friedmann",
+                    "email": "j@frd.mn"
+                }
+            ],
+            "description": "Library to create Alfred workflows using PHP",
+            "time": "2017-01-01 07:57:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

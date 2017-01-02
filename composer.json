@@ -1,0 +1,5 @@
+{
+    "require": {
+        "frdmn/php-alfred": "^0.3.6"
+    }
+}
