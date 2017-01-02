@@ -1,57 +1,53 @@
 # alfred-gira
 
-[description]
+![](http://i.imgur.com/HbYLrpB.png)
+
+Simple workflow to control your Gira home server (light switches and power outlets) in your office.
 
 ## Installation
 
-1. Make sure you've installed all requirements
-2. Clone this repository:
+1. Make sure to download and adjust the default configuration file:
 
-		```shell
-		git clone https://github.com/[GitHubUsername]/alfred-gira
-		```
+    ```shell
+    curl -sL https://raw.githubusercontent.com/frdmn/alfred-gira/master/config.sample.json > ~/.alfred-gira.json
+    ```
 
-3. Install the project using `make`:
-
-		```shell
-		make install
-		```
+2. Download and install the [compiled workflow](https://github.com/frdmn/alfred-gira/releases) in Alfred
 
 ## Usage
 
 Here's a short explanation how to use `alfred-gira`:
 
-* Use it
-* Profit
+* Install workflow
+* Type `gira` to interact with it
 
 ## Contributing
 
 1. Fork it
 2. Create your feature branch:
 
-		```shell
-		git checkout -b feature/my-new-feature
-		```
+    ```shell
+    git checkout -b feature/my-new-feature
+    ```
 
 3. Commit your changes:
 
-		```shell
-		git commit -am 'Add some feature'
-		```
+    ```shell
+    git commit -am 'Add some feature'
+    ```
 
 4. Push to the branch:
 
-		```shell
-		git push origin feature/my-new-feature
-		```
+    ```shell
+    git push origin feature/my-new-feature
+    ```
 
 5. Submit a pull request
 
 ## Requirements / Dependencies
 
-* This
-* And that
-* As well as this
+* Gira homeserver
+* Alfred 3
 
 ## Version
 
