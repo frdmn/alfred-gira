@@ -46,7 +46,7 @@ Here's a short explanation how to use `alfred-gira`:
 
 ## Version
 
-1.0.0
+1.1.0
 
 ## License
 
