@@ -6,12 +6,7 @@ Simple workflow to control your Gira home server (light switches and power outle
 
 ## Installation
 
-1. Make sure to download and adjust the default configuration file:
-
-    ```shell
-    curl -sL https://raw.githubusercontent.com/frdmn/alfred-gira/master/config.sample.json > ~/.alfred-gira.json
-    ```
-
+1. Make sure to have [giracli](https://github.com/frdmn/giracli) installed and configured
 2. Download and install the [compiled workflow](https://github.com/frdmn/alfred-gira/releases) in Alfred
 
 ## Usage
